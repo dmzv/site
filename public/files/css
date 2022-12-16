@@ -1,0 +1,14 @@
+﻿@font-face {
+  font-family: 'Lexend Giga';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(files/PlIuFl67Mah5Y8yMHE7lkUZPlTBo4MWFfNRC2Li07MAs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend Giga';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(files/PlIuFl67Mah5Y8yMHE7lkUZPlTBo4MWFfNRCBr-07MAs.ttf) format('truetype');
+}
