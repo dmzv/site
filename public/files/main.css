@@ -47,34 +47,42 @@ h1, h2, h3, p {direction: var(--site-language-direction);position: relative;}h1 
 #text01 a {text-decoration: underline;}
 #text01 a:hover {text-decoration: none;}
 #text01 span.p:nth-child(n + 2) {margin-top: 1rem;}
+
 #text05 {color: #324244;font-family: 'Lexend Giga', sans-serif;font-size: 1em;line-height: 1.5;font-weight: 600;}
 #text05 a {text-decoration: underline;}
 #text05 a:hover {text-decoration: none;}
 #text05 span.p:nth-child(n + 2) {margin-top: 1rem;}
+
 #text04 {color: #324244;font-family: 'Lexend Giga', sans-serif;font-size: 1em;line-height: 1.5;font-weight: 400;}
 #text04 a {text-decoration: underline;}
 #text04 a:hover {text-decoration: none;}
 #text04 span.p:nth-child(n + 2) {margin-top: 1rem;}
+
 #text08 {color: #324244;font-family: 'Lexend Giga', sans-serif;font-size: 1em;line-height: 1.5;font-weight: 600;}
 #text08 a {text-decoration: underline;}
 #text08 a:hover {text-decoration: none;}
 #text08 span.p:nth-child(n + 2) {margin-top: 1rem;}
+
 #text07 {color: #324244;font-family: 'Lexend Giga', sans-serif;font-size: 1em;line-height: 1.5;font-weight: 400;}
 #text07 a {text-decoration: underline;}
 #text07 a:hover {text-decoration: none;}
 #text07 span.p:nth-child(n + 2) {margin-top: 1rem;}
+
 #text02 {color: #324244;font-family: 'Lexend Giga', sans-serif;font-size: 1em;line-height: 1.5;font-weight: 600;}
 #text02 a {text-decoration: underline;}
 #text02 a:hover {text-decoration: none;}
 #text02 span.p:nth-child(n + 2) {margin-top: 1rem;}
+
 #text06 {color: #324244;font-family: 'Lexend Giga', sans-serif;font-size: 1em;line-height: 1.5;font-weight: 600;}
 #text06 a {text-decoration: underline;}
 #text06 a:hover {text-decoration: none;}
 #text06 span.p:nth-child(n + 2) {margin-top: 1rem;}
+
 #text03 {color: #324244;font-family: 'Lexend Giga', sans-serif;font-size: 0.75em;line-height: 1.5;font-weight: 400;}
 #text03 a {text-decoration: underline;}
 #text03 a:hover {text-decoration: none;}
 #text03 span.p:nth-child(n + 2) {margin-top: 1rem;}.buttons {cursor: default;display: flex;justify-content: var(--flex-alignment);letter-spacing: 0;padding: 0;}.buttons li {max-width: 100%;}
+
 
 .buttons li a {align-items: center;justify-content: center;max-width: 100%;text-align: center;text-decoration: none;vertical-align: middle;white-space: nowrap;}
 #buttons02 {gap: 0.5rem;flex-direction: row;flex-wrap: wrap;}
@@ -84,6 +92,7 @@ h1, h2, h3, p {direction: var(--site-language-direction);position: relative;}h1 
 #buttons02 .button {background-color: #CDCACB;color: #324244;}
 #buttons02 .button:hover {background-color: #E2DEDF !important;}
 #buttons02 li a:hover {transform: scale(1.0425);}
+
 #buttons01 {gap: 0.5rem;flex-direction: row;flex-wrap: wrap;}
 #buttons01 li a {display: inline-block;width: auto;height: 2.125rem;line-height: 2.125rem;padding: 0 1.0625rem;vertical-align: middle;font-family: 'Lexend Giga', sans-serif;font-size: 0.875em;font-weight: 400;border-radius: 1rem;direction: var(--site-language-direction);overflow: hidden;text-overflow: ellipsis;transition: transform 0.5s ease, color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;}
 #buttons01 .button {background-color: #324244;color: #E2DEDF;}
@@ -93,11 +102,13 @@ h1, h2, h3, p {direction: var(--site-language-direction);position: relative;}h1 
 #buttons01 .n03:hover {background-color: rgba(50,59,89,0.529) !important;}
 #buttons01 .n04:hover {background-color: rgba(89,50,50,0.529) !important;}
 #buttons01 .n05:hover {background-color: rgba(50,80,89,0.529) !important;}
+
 #buttons04 {gap: 0.5rem;flex-direction: row;flex-wrap: wrap;}
 #buttons04 li a {display: inline-block;width: auto;height: 2.125rem;line-height: 2.125rem;padding: 0 1.0625rem;vertical-align: middle;font-family: 'Lexend Giga', sans-serif;font-size: 0.875em;font-weight: 400;border-radius: 1rem;direction: var(--site-language-direction);overflow: hidden;text-overflow: ellipsis;transition: transform 0.5s ease, color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;}
 #buttons04 .button {background-color: #324244;color: #E2DEDF;background-image: linear-gradient(214deg, #324244 0%, rgba(50,66,68,0.008) 100%);background-position: 0% 0%;background-repeat: repeat;background-size: cover;}
 #buttons04 .button:hover {background-color: #517A46 !important;}
 #buttons04 li a:hover {transform: scale(0.8875);}
+
 #buttons03 {gap: 0.5rem;flex-direction: row;flex-wrap: wrap;}
 #buttons03 li a {display: inline-flex;width: auto;height: 2.125rem;line-height: 2.125rem;padding: 0 1.0625rem;vertical-align: middle;font-family: 'Lexend Giga', sans-serif;font-size: 0.875em;font-weight: 400;border-radius: 0rem;flex-direction: row-reverse;transition: transform 0.5s ease, color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;}
 #buttons03 li a svg {display: block;fill: #324244;flex-grow: 0;flex-shrink: 0;height: 100%;min-width: 16px;width: 1em;margin-left: 0.5em;margin-right: calc(-0.125em + 0rem);transition: fill 0.5s ease;}
@@ -105,8 +116,11 @@ h1, h2, h3, p {direction: var(--site-language-direction);position: relative;}h1 
 #buttons03 .button {background-color: #CDCACB;color: #324244;}
 #buttons03 .button:hover {background-color: #E2DEDF !important;}
 #buttons03 li a:hover {transform: scale(1.0425);}hr {border: 0;padding: 0;position: relative;width: 100%;}hr:before {content: '';display: inline-block;max-width: 100%;vertical-align: middle;}
+
 #divider01:before {width: 100%;border-top: solid 1px #324244;height: 1px;margin-top: -0.5px;}
 #divider02:before {width: 100%;border-top: dashed 2px #324244;height: 2px;margin-top: -1px;}.timer {cursor: default;line-height: 1;}.timer ul {display: inline-flex;flex-direction: row;list-style: none;max-width: 100%;}.timer ul li {position: relative;z-index: 1;}.timer ul li.delimiter {flex: 0 1 auto;}.timer ul li.delimiter .symbol {display: block;left: 0;position: absolute;text-align: center;top: 0;width: 100%;}.timer ul li.number {flex: 1;min-width: 2rem;}.timer ul li.number .item {position: relative;}.timer ul li.number .item .digit {display: block;position: relative;white-space: nowrap;}.timer ul li.number .item .digit .component {display: inline-block;width: 50%;}.timer ul li.number .item .digit.count2 .component {width: 50%;}.timer ul li.number .item .digit.count3 .component {width: 33.3333%;}.timer ul li.number .item .digit.count4 .component {width: 25%;}.timer ul li.number .item .digit.count5 .component {width: 20%;}.timer ul li.number .item .label {display: block;white-space: nowrap;}.timer ul li.number .item .label > * {display: inline-block;}.timer ul li.number .item .label .full {width: 5em;}.timer ul li.number .item .label .abbreviated {width: 3em;}.timer ul li.number .item .label .initialed {width: 1em;}
+
+
 #timer01 ul {width: 29rem;}
 #timer01 ul li.delimiter {width: 3rem;min-width: 1rem;}
 #timer01 ul li.delimiter .symbol {color: #324244;}
